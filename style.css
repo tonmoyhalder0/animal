@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-start {
+    display: flex;
+    padding: 35px;
+    border: 1px solid red;
+}
+
+.logo {
+    padding-left: 200px;
+}
+.nav-fil {
+    padding-left: 350px;
+}
+
+.nav-fil a {
+    padding-left: 50px;
+    text-decoration: none ;
+    font-size: 20px;
+}
+
+.section1 {
+    height: 600px;
+    background-image: url(./image/banner.png.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.section2 {
+  
+     display: flex; 
+   
+
+}
+
+.section3 {
+    position: relative;
+    top: 200px;
+    padding-left: 300px;
+    width: 600px;
+
+}
+
+.we {
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.your-pets {
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.lorem {
+    font-size: 18PX;
+    color: #FFFFFF;
+}
+
+.dog-img {
+
+    position: absolute;
+}
+
+.dog-img img {
+    top: 100px;
+    left: 50PX;
+    border: 50PX;
+
+
+    position: relative;
+    height: 600px;
+    /* width: 750px; */
+}
+
+
+.dog-btn {
+    padding-top: 40PX;
+
+}
+
+.dog-btn input {
+    width: 180PX;
+    height: 60PX;
+    border-radius: 30PX;
+    cursor: pointer;
+    border: none;
+       transition-duration: 1s;
+    transition-delay: 1s;
+       transform: perspective(50%);
+
+}
+
+.dog-btn input:hover {
+    transform: perspective(50%);
+    transition-duration: 1s;
+    transition-delay: 1s;
+    color: #FFFFFF;
+    font-size: 20px;
+    background-color: #FE6217;
+  
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
