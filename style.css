@@ -13,13 +13,14 @@
 .logo {
     padding-left: 200px;
 }
+
 .nav-fil {
     padding-left: 350px;
 }
 
 .nav-fil a {
     padding-left: 50px;
-    text-decoration: none ;
+    text-decoration: none;
     font-size: 20px;
 }
 
@@ -31,9 +32,9 @@
 }
 
 .section2 {
-  
-     display: flex; 
-   
+
+    display: flex;
+
 
 }
 
@@ -54,6 +55,7 @@
     font-size: 40px;
     color: #FFFFFF;
 }
+
 .lorem {
     font-size: 18PX;
     color: #FFFFFF;
@@ -87,9 +89,9 @@
     border-radius: 30PX;
     cursor: pointer;
     border: none;
-       transition-duration: 1s;
+    transition-duration: 1s;
     transition-delay: 1s;
-       transform: perspective(50%);
+    transform: perspective(50%);
 
 }
 
@@ -100,9 +102,50 @@
     color: #FFFFFF;
     font-size: 20px;
     background-color: #FE6217;
-  
+}
 
 
+.box {
+
+    margin: 120px;
+    margin-top: 200px;
+    height: 700px;
+}
+
+.heading {
+    margin: 120px;
+    text-align: center;
+}
+
+.heading1 {
+    font-size: 40px;
+    color: #191D34;
+}
+
+.heading2 {
+    margin: 20px;
+    color: #9095A0;
+
+    font-size: 17px;
+}
+
+
+
+
+
+.box1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 70px;
+
+}
+
+
+.box2 {
+    border: 1px solid red;
+    height: 462px;
+    width: 350px;
+    border-radius: 20px;
 
 }
 
@@ -110,13 +153,97 @@
 
 
 
+.box-img1 {
+    position: absolute;
+
+
+
+
+}
+
+.box-img1 img {
+    top: 50px;
+    position: relative;
+    left: 90px;
+}
+
+.Pet {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 25px;
+    color: #191D34;
+}
+
+.lorem-2 {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 25px;
+    color: #9095A0;
+
+    text-align: center;
+}
+
+
+.box-img2 img {
+    top: 80px;
+    left: 125px;
+    position: absolute;
+
+}
+
+
+
+.cat-1 {
+    /* position: absolute; */
+    display: flex;
+    gap: 150px;
+}
 
 
 
 
 
+.cat-logo img {
+    padding-left: 200px;
+
+}
+
+.we1 {
+    padding-top: 100px;
+    font-size: 40px;
+    font-family: monospace;
+        color: #191D34;
+}
+
+.as1 {
+    font-size: 40px;
+   font-weight: lighter;
+   font-family: Arial, Helvetica,;
+   color: #FE6217;
+}
 
 
 
 
+.lorem-cat {
+    padding-top: 20px;
+    font-size: 20px;
+        color: #9095A0;
+}
 
+
+
+.cat-btn {
+    padding-top: 50px;
+}
+
+.cat-btn input {
+    height: 50px;
+    width: 180px;
+    border-radius: 30px;
+    border: none;
+    background-color: #FE6217;
+    color: #FFFFFF;
+    font-size: 18px;
+    cursor: pointer;
+}
