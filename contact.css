@@ -65,3 +65,120 @@
     font-size: 50px;
     color: #fd7e14;
 }
+
+
+#form {
+    margin-top: 200px;
+    height: 500px;
+}
+
+.login {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.loging-box {
+    height: 600px;
+    /* border: 1px solid red; */
+    width: 700px;
+    position: relative;
+    padding-left: 20px;
+    /* left: 50px; */
+
+}
+
+
+
+
+
+.label-text {
+    padding-top: 50px;
+
+    
+}
+
+
+
+.label-text textarea {
+    height: 189px;
+    max-height: 190px;
+    min-height: 189px;
+    min-width: 650px;
+    max-width: 650px;
+    flex-wrap: nowrap;
+    outline: none;
+    padding: 30px;
+    font-size: 20px;
+    border: 1px solid gray;
+
+}
+
+
+.in-lb1 {
+    display: flex;
+    padding-top: 50px;
+    /* position: relative; */
+    
+    
+
+}
+.in-lb1 input {
+    position: relative;
+    height: 40px;
+    width: 315px;
+    padding-left: 20px;
+    outline: none;
+    /* top: 50px; */
+}
+
+
+.in-lb2 {
+    padding-left: 20px;
+
+}
+
+
+
+.subject1 {
+     padding-top: 50px;
+
+}
+
+
+.subject1 input {
+   
+    
+   
+    height: 40px;
+    width: 650px;
+    padding-left: 20px;
+    outline: none;
+    
+    
+}
+
+
+.send {
+    padding-top: 50px;
+
+}
+
+
+.send input {
+    height: 50px;
+    width: 150px;
+    border: 1px solid #fd7e14;
+    background-color: transparent;
+    color: #fd7e14;
+
+     transition-duration: 1s;
+    transition-delay: 1s;
+}
+
+.send input:hover {
+    background-color: #fd7e14;
+    color: #ffffff;
+    transition-duration: 1s;
+    transition-delay: 1s;
+}
