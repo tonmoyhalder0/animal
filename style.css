@@ -12,6 +12,7 @@
 
 .logo {
     padding-left: 200px;
+    cursor: pointer;
 }
 
 .nav-fil {
@@ -22,6 +23,14 @@
     padding-left: 50px;
     text-decoration: none;
     font-size: 20px;
+    text-transform: capitalize;
+}
+
+.nav-fil a:hover {
+    color: #fd7e14;
+    ;
+
+
 }
 
 .section1 {
@@ -142,12 +151,29 @@
 
 
 .box2 {
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     height: 462px;
     width: 350px;
     border-radius: 20px;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
+
+
+
 
 }
+
+.box2:hover {
+    transition: all;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
+
+
+
+}
+
 
 
 
@@ -267,9 +293,9 @@
 .tom {
     position: relative;
     left: 50px;
-    
 
-    
+
+
 }
 
 
@@ -339,7 +365,7 @@
     padding-left: 15px;
     padding-top: 10px;
     color: #9095A0;
-      color: #191D34;
+    color: #191D34;
 
 }
 
@@ -348,11 +374,12 @@
     padding-left: 90px;
     padding-top: 20px;
     font-size: 30px;
-  
-      color: #9095A0;
+
+    color: #9095A0;
 }
+
 .peet-point3 p {
-      color: #9095A0;
+    color: #9095A0;
 
 }
 
@@ -383,13 +410,13 @@
 
 .peet-img1 {
     left: 50px;
-        bottom: 100px;
+    bottom: 100px;
     position: relative;
-     height: 269px;
+    height: 269px;
     width: 255px;
     border-radius: 14px;
-      box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
-      background-color: #FFFFFF;
+    box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
+    background-color: #FFFFFF;
 }
 
 
@@ -408,17 +435,69 @@
     left: 50px;
     bottom: 70px;
     position: relative;
-    /* border: 1px solid red; */
-     height: 269px;
+    height: 269px;
     width: 255px;
     border-radius: 14px;
-
-       box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
-      background-color: #FFFFFF;
+    box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
+    background-color: #FFFFFF;
 }
 
 
 .peet-img2 img {
     padding-top: 35px;
     padding-left: 80px;
+}
+
+
+.display-border {
+    position: relative;
+    height: 280px;
+    width: 650px;
+    border-radius: 30px;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
+    left: 50px;
+}
+
+.display-border:hover {
+    transition-duration: 1s;
+    transition-delay: 1s;
+    background-color: #c6c8cc;
+}
+
+
+.display1 {
+    position: relative;
+    display: flex;
+    top: 20%;
+    left: 70px;
+}
+
+.display {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 500px;
+}
+
+.flex-con {
+    position: relative;
+    left: 30px;
+    top: 20px;
+
+}
+
+.flex-text1 {
+    font-size: 20px;
+
+}
+
+.flex-text2 {
+    padding-top: 15px;
+    color: #9095A0;
+}
+
+.flex-text3 {
+    padding-top: 10px;
+    color: #9095A0;
 }
