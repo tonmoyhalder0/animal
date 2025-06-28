@@ -504,7 +504,7 @@
 
 
 #black-container {
-    height: 500px;
+    height: 750px;
 }
 
 .team1 h1 {
@@ -561,4 +561,87 @@
 
 .rela1 p {
     color: #4f5258;
+}
+
+
+
+#last-section {
+    background-image: url(./image/contact_bg.png.webp);
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+
+
+
+
+.last_1 {
+    position: relative;
+    text-align: center;
+    top: 100px;
+
+}
+
+.last-2 {
+    padding-top: 100px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.last-3 p {
+    padding-top: 30px;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 30px;
+    font-weight: 400;
+
+}
+
+
+
+.last-btn {
+    padding-top: 50px;
+    position: relative;
+    right: 50px;
+}
+
+
+.last-btn input {
+    height: 50px;
+    width: 180px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    background-color: #FFFFFF;
+    color: #fd7e14;
+    cursor: pointer;
+    transition-duration: 1s;
+    transition-delay: 1s;
+}
+
+.last-btn input:hover {
+    transition-duration: 1s;
+    transition-delay: 1s;
+    background-color:#FE6217;
+    color: #FFFFFF;
+}
+.last-btn2 {
+    position: relative;
+    top: 15px;
+    left: 20px;
+   
+}
+.last-btn2 a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.last-btn {
+    display: flex;
+    justify-content: center;
 }
